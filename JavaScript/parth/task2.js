@@ -1,3 +1,9 @@
+// 2) Write down a function that displays the sum of the numbers with each iteration in a range using a recursive function.
+// Eg: range(3,10)
+// Output:
+// [3,4,5,6,7,8,9,10]
+// [3,7,12,18,25,33,42,52]
+
 function Task4() {
   let num1 = parseInt(prompt("Enter Minimun"));
   let num2 = parseInt(prompt("Enter Maximum"));

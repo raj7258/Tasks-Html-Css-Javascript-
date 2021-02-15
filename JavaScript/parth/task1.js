@@ -1,3 +1,6 @@
+// 1) Write down a function that displays total word count, count of character(with and without white space), 
+// and count of white spaces.
+
 function Task3() {
   let userInput = prompt("Enter String");
   wordCounter(userInput);

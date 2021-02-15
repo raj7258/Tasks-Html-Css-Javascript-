@@ -1,3 +1,6 @@
+// 3) Write down a function that separates the firstName and lastName from a string 
+// (considering the first word of string as the First Name and rest as the Last Name) 
+// and perform a search using the first name in the static JSON Data.
 function Task5() {
   let num = prompt("Enter Length Of Array");
   let data = [];

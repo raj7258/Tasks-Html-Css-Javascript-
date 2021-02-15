@@ -1,3 +1,14 @@
+// 2) Write down a program which returns the nth smallest number from randomly generated data.
+
+// Requirements: 
+// There should be User Input which defines the number of data [n] to store. Ask the User Minimum and Maximum range to generate the random numbers between that range. 
+// Ask the user which nth smallest number he wants to find from the generated data.
+
+// Output:
+// 1) Display the Randomly Generated Data
+// 2) Display the nth smallest number
+
+
 function Task2() {
   let len = parseInt(prompt("Enter The Length of Array"));
   let data = new Array(len);
