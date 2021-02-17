@@ -5,6 +5,14 @@
 // 5 Write a JavaScript function to add specified weeks to a date
 // 6 Write a JavaScript function to get timezone offset in seconds.
 
-function task7(){
+function Task7() {
+  let year = prompt("Enter Year");
+  let month = prompt("Enter month");
 
+  //1
+  function getNumberOfDay(year, month) {
+    return new Date(year, month + 1, 0).getDate();
+  }
+
+  console.log("Number Of Days =", getNumberOfDay(+year, +month));
 }
