@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        tr,
+        th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <select name="cities" onchange="option1(this.value)" id="cities">
+        <option value="" selected disabled>Select</option>
+        <option value="ahmedabad">Ahmedabad</option>
+        <option value="surat">Surat</option>
+        <option value="vadodara">Vadodara</option>
+    </select>
+
+    <select name="restaurants" onchange="option2(this.value)" id="restaurants" disabled>
+        <option value="" selected>Select</option>
+    </select>
+
+    <select name="menu" onchange="option3(this.value)" id="menu" disabled>
+        <option value="" selected>Select</option>
+    </select>
+
+    <input type="text" id="price" name="price" readonly disabled>
+
+    <!-- <select name="price" id="price" onchange="option4(this.value)" disabled>
+        <option value="" selected readonly>Select</option>
+    </select> -->
+
+    <button id="btn1" disabled onclick="addToCart(event)">Add To Table</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <table id="table1" style="margin: auto;">
+        <tr>
+            <th>Cities</th>
+            <th>Restaurants</th>
+            <th>Items</th>
+            <th>Price</th>
+            <th>Delete Item</th>
+        </tr>
+    </table>
+    <br>
+    <h3 id="totalPrice" style=" text-align: center;margin:0 auto;">Total Price</h3>
+    <script src="./domTask1.js"></script>
+</body>
+
+</html>

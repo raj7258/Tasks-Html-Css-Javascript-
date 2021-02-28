@@ -1,5 +1,5 @@
-// 3) Write down a function that separates the firstName and lastName from a string 
-// (considering the first word of string as the First Name and rest as the Last Name) 
+// 3) Write down a function that separates the firstName and lastName from a string
+// (considering the first word of string as the First Name and rest as the Last Name)
 // and perform a search using the first name in the static JSON Data.
 function Task5() {
   let num = prompt("Enter Length Of Array");
@@ -33,10 +33,6 @@ function Task5() {
     let msg = data.split(" ");
     let firstName = msg.slice(0, 1).join("");
     let lastName = data.slice(data.indexOf(" ") + 1);
-    // let lastName = msg.filter((x) => {
-    //   return x !== firstName;
-    // });
-    // lastName = lastName.join("");
     return { firstName, lastName };
   }
 }
